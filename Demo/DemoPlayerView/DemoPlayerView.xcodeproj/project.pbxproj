@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0129A4AA24543EDD00B567C2 /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129A4A924543EDD00B567C2 /* PlayerManager.swift */; };
+		0129A4AD24543F3F00B567C2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129A4AC24543F3F00B567C2 /* Utilities.swift */; };
+		0129A4AF24543F4900B567C2 /* EnumDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129A4AE24543F4900B567C2 /* EnumDefine.swift */; };
+		0129A4B124543F6400B567C2 /* StructDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129A4B024543F6400B567C2 /* StructDefine.swift */; };
+		0129A4B4245440FE00B567C2 /* AVPlayerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129A4B3245440FE00B567C2 /* AVPlayerExt.swift */; };
+		0129A4B62454428400B567C2 /* AVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129A4B52454428400B567C2 /* AVPlayerView.swift */; };
 		0137018C244EA1EB00FA7EF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0137018B244EA1EB00FA7EF2 /* AppDelegate.swift */; };
 		0137018E244EA1EB00FA7EF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0137018D244EA1EB00FA7EF2 /* SceneDelegate.swift */; };
 		01370190244EA1EB00FA7EF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0137018F244EA1EB00FA7EF2 /* ViewController.swift */; };
 		01370195244EA1ED00FA7EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01370194244EA1ED00FA7EF2 /* Assets.xcassets */; };
 		01370198244EA1ED00FA7EF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01370196244EA1ED00FA7EF2 /* LaunchScreen.storyboard */; };
+		01EA86392457EFB1005BC04E /* ben-trong-nha-ga-ngam-dau-tien-sap-hoan-thanh-1587975303.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 01EA86372457EEA4005BC04E /* ben-trong-nha-ga-ngam-dau-tien-sap-hoan-thanh-1587975303.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0129A4A924543EDD00B567C2 /* PlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
+		0129A4AC24543F3F00B567C2 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		0129A4AE24543F4900B567C2 /* EnumDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumDefine.swift; sourceTree = "<group>"; };
+		0129A4B024543F6400B567C2 /* StructDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructDefine.swift; sourceTree = "<group>"; };
+		0129A4B3245440FE00B567C2 /* AVPlayerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerExt.swift; sourceTree = "<group>"; };
+		0129A4B52454428400B567C2 /* AVPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerView.swift; sourceTree = "<group>"; };
 		01370188244EA1EB00FA7EF2 /* DemoPlayerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoPlayerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0137018B244EA1EB00FA7EF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0137018D244EA1EB00FA7EF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +35,7 @@
 		01370194244EA1ED00FA7EF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01370197244EA1ED00FA7EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01370199244EA1ED00FA7EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01EA86372457EEA4005BC04E /* ben-trong-nha-ga-ngam-dau-tien-sap-hoan-thanh-1587975303.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ben-trong-nha-ga-ngam-dau-tien-sap-hoan-thanh-1587975303.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0129A4A724543A7C00B567C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0129A4B52454428400B567C2 /* AVPlayerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0129A4A824543AA400B567C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0137018F244EA1EB00FA7EF2 /* ViewController.swift */,
+				0129A4A924543EDD00B567C2 /* PlayerManager.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0129A4AB24543F2800B567C2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0129A4B3245440FE00B567C2 /* AVPlayerExt.swift */,
+				0129A4AC24543F3F00B567C2 /* Utilities.swift */,
+				0129A4AE24543F4900B567C2 /* EnumDefine.swift */,
+				0129A4B024543F6400B567C2 /* StructDefine.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		0137017F244EA1EB00FA7EF2 = {
 			isa = PBXGroup;
 			children = (
@@ -56,7 +98,10 @@
 			children = (
 				0137018B244EA1EB00FA7EF2 /* AppDelegate.swift */,
 				0137018D244EA1EB00FA7EF2 /* SceneDelegate.swift */,
-				0137018F244EA1EB00FA7EF2 /* ViewController.swift */,
+				0129A4A724543A7C00B567C2 /* View */,
+				0129A4A824543AA400B567C2 /* Controller */,
+				0129A4AB24543F2800B567C2 /* Helper */,
+				01EA86372457EEA4005BC04E /* ben-trong-nha-ga-ngam-dau-tien-sap-hoan-thanh-1587975303.mp4 */,
 				01370194244EA1ED00FA7EF2 /* Assets.xcassets */,
 				01370196244EA1ED00FA7EF2 /* LaunchScreen.storyboard */,
 				01370199244EA1ED00FA7EF2 /* Info.plist */,
@@ -74,6 +119,7 @@
 				01370184244EA1EB00FA7EF2 /* Sources */,
 				01370185244EA1EB00FA7EF2 /* Frameworks */,
 				01370186244EA1EB00FA7EF2 /* Resources */,
+				0129A4B7245443BC00B567C2 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -122,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01EA86392457EFB1005BC04E /* ben-trong-nha-ga-ngam-dau-tien-sap-hoan-thanh-1587975303.mp4 in Resources */,
 				01370198244EA1ED00FA7EF2 /* LaunchScreen.storyboard in Resources */,
 				01370195244EA1ED00FA7EF2 /* Assets.xcassets in Resources */,
 			);
@@ -129,13 +176,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0129A4B7245443BC00B567C2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		01370184244EA1EB00FA7EF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				01370190244EA1EB00FA7EF2 /* ViewController.swift in Sources */,
+				0129A4B4245440FE00B567C2 /* AVPlayerExt.swift in Sources */,
+				0129A4AF24543F4900B567C2 /* EnumDefine.swift in Sources */,
 				0137018C244EA1EB00FA7EF2 /* AppDelegate.swift in Sources */,
+				0129A4B124543F6400B567C2 /* StructDefine.swift in Sources */,
+				0129A4AA24543EDD00B567C2 /* PlayerManager.swift in Sources */,
+				0129A4B62454428400B567C2 /* AVPlayerView.swift in Sources */,
+				0129A4AD24543F3F00B567C2 /* Utilities.swift in Sources */,
 				0137018E244EA1EB00FA7EF2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
