@@ -10,7 +10,12 @@ Just use AVFoundation and UIKit (programmatically, no storyboard), SwiftLint (A 
 + [Author](#author)
 
 ## 🧐 About <a name = "about"></a>
-Learn about AVFoundation and UIKit framework. All view was created programmatically (with code and no storyboard).
+- Learn about AVFoundation and UIKit framework. All view was created programmatically (with code and no storyboard).
+- Autolayout with code (no Interface Builder)
+- Custom UI (UIView)
+- GitFlow.
+- SwiftLint (A tool to enforce Swift style and conventions).
+- Use Delegation Pattern
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 Clone this repo and copy my AVPlayerView.swift into your project!
